@@ -18,7 +18,7 @@ int main(void)
 	}
 	for (letter_U = 'A'; letter_U <= 'z'; letter_U++)
 	{
-		putchar(letter);
+		putchar(letter_U);
 	}
 	putchar('\n');
 	return (0);
