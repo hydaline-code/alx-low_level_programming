@@ -8,7 +8,7 @@ int main(void)
 {
 	 int i;
 
-	 i = 98;
+	 i = 0;
 	if (i > 0)
 	{
 		printf("%d is positive\n", i);
