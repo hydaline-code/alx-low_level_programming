@@ -1,10 +1,11 @@
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
 /**
  * main - Prints if number is positive, zero or negative
  *
  * Return: Always (Success)
  */
-int main(0)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
