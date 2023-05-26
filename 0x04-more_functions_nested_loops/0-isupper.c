@@ -12,10 +12,10 @@ int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-		return (_putchar(49));
+		return (1);
 	}
 	else
 	{
-		return (_putchar(48));
+		return (0);
 	}
 }
