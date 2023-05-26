@@ -10,15 +10,12 @@
 
 int _isupper(int c)
 {
-	for (c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		if (_isupper(c))
-		{
-			_putchar(49);
-		}
-		else
-		{
-			_putchar(48);
-		}
+		return (_putchar(49));
+	}
+	else
+	{
+		return (_putchar(48));
 	}
 }
