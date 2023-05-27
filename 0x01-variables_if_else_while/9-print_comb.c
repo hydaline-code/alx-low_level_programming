@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i;
+	int i=0;
 
 	while (i < 10)
 	{
@@ -18,8 +18,8 @@ int main(void)
 				putchar(',');
 				putchar(32);
 			}
+			i++;
 	}
-	i++
 	return (0);
 }
 
