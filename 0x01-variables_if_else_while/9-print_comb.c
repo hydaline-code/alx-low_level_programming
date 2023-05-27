@@ -7,14 +7,20 @@
  */
 int main(void)
 {
-	int n;
 	int i;
 
 	for (i = 48; i <= 57; i++)
 	{
-		putchar(i);
-		putchar(',');
-		putchar(32);
+		if (i != 57)
+		{
+			putchar(i);
+			putchar(',');
+			putchar(32);
+		}
+		else
+		{
+			putchar(57);
+		}
 	}
 	return (0);
 }
