@@ -18,10 +18,15 @@ int main(void)
 			{
 				putchar(i);
 				putchar(i + n);
-				putchar(',');
-				putchar(32);
+
+				if (i != 56)
+				{
+					putchar(',');
+					putchar(32);
+				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
