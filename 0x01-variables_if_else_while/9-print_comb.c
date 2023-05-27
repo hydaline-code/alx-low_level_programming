@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i <= 58; i++)
+	for (i = 48; i < 58; i++)
 	{
-		if (i < 58)
+		if (i != 57)
 		{
 			putchar(i);
 			putchar(',');
@@ -19,7 +19,7 @@ int main(void)
 		}
 		else
 		{
-			
+			putchar(57);
 		}
 	}
 	return (0);
