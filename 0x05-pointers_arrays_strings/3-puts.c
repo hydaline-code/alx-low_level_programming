@@ -1,5 +1,6 @@
 #include "main.h"
-#include "_putchar.c"
+#include <stdio.h>
+
 /**
   * _puts - Prints a string
   * @str: The string to print
@@ -7,14 +8,12 @@
   * Return: void
   */
 
-void _puts(char *str)
-{
-	int i;
+void _puts(char* str) {
+    int i;
 
-	for (i = 0; *(str + i) != '\0'; i++)
-	{
-		_putchar(*(str + i));
-	}
-	_putchar('\n');
-
+    for (i = 0; str[i] != '\0'; i++) {
+        putchar(str[i]);
+    }
+    putchar('\n');
 }
+
