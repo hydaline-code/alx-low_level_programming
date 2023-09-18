@@ -8,12 +8,14 @@
  * @str: string to print
  */
 
-void print_rev(char* str) {
-    int i;
+void print_rev(char *str)
+{
+	int i;
 
-    for (i = strlen(str) - 1; i >= 0; i--) {
-        putchar(str[i]);
-    }
-    putchar('\n');
+	for (i = strlen(str) - 1; i >= 0; i--)
+	{
+		putchar(*(str + i));
+	}
+	putchar('\n');
 }
 
